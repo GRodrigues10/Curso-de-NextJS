@@ -19,6 +19,7 @@ function Topo() {
         }}>Produtos</Link>
         <Link href={"/teste/teste"}>Teste</Link>
         <Link href={"/useState/useState"}>UseState</Link>
+        <Link href={"/useEffect/useEffect"}>UseEffect</Link>
         <Link href={"/inputs/inputs"}>Inputs</Link>
       </nav>
     </div>
