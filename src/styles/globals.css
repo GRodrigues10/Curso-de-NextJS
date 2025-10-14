@@ -3,6 +3,23 @@
 /* @import 'topo.css'; */
 
 :root {
-
 }
 
+.campo_form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.campo_form label {
+  font-size: large;
+}
+
+.campo_form input {
+  border: 1px solid grey;
+  pad: 5px;
+  border-radius: 5px;
+}
