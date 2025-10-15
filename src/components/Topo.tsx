@@ -21,6 +21,7 @@ function Topo() {
         <Link href={"/useState/useState"}>UseState</Link>
         <Link href={"/useEffect/useEffect"}>UseEffect</Link>
         <Link href={"/inputs/inputs"}>Inputs</Link>
+        <Link href={"/filtragem/filtragem"}>Filtragem</Link>
       </nav>
     </div>
   );
