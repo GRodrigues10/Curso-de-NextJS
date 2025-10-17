@@ -19,7 +19,7 @@ function CalcImc() {
       <CompForm label="altura" state={altura} funcState={setAltura} />
       <button onClick={calcular} className="bg-blue-900 text-white mx-2 p-1 rounded cursor-pointer">Calcular</button>
       <p className="bg-zinc-100 p-1">Resultado:{imc.toFixed(2)}</p>
-      <TabelaImc />
+      <TabelaImc imc={imc} />
     </div>
   );
 }
